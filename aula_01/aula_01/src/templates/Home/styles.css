@@ -1,0 +1,28 @@
+.container {
+  min-height: 100vh;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Adicionado para empilhar os Posts e o botão verticalmente */
+  padding: 20px;
+}
+.button-container {
+  margin-top: 20px; /* Adicionado para adicionar espaço entre os Posts e o botão */
+  display: flex;
+  justify-content: center; /* Centraliza o botão horizontalmente dentro da div */
+  width: 100%; /* Para garantir que ocupe toda a largura disponível (opcional) */
+  cursor: pointer;
+}
+.colorir{
+  color: black;
+}
+
+.search-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.search-container h1 {
+  margin-bottom: 30px;
+}

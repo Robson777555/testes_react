@@ -1,0 +1,6 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "targets": { "node": "current" } }], // Suporta a versão atual do Node.js
+    "@babel/preset-react" // Suporta JSX
+  ]
+}
